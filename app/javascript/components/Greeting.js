@@ -19,7 +19,6 @@ const Greeting = () => {
     return <h2>Loading...</h2>;
   }
 
-  console.log(store.message.data.data.content);
   return (
     <>
       <h1>{store.message.data.data.content}</h1>
